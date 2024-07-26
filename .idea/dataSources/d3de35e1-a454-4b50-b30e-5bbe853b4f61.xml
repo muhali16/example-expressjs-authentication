@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="express_auth@127.0.0.1">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.52">
+    <root id="1">
+      <ServerVersion>6.0.16</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="admin"/>
+    <schema id="3" parent="1" name="config"/>
+    <schema id="4" parent="1" name="express_auth">
+      <Current>1</Current>
+    </schema>
+    <schema id="5" parent="1" name="local"/>
+    <schema id="6" parent="1" name="shop_db"/>
+  </database-model>
+</dataSource>
